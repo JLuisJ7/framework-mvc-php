@@ -13,7 +13,7 @@ require_once APP_PATH.'Controller.php';//controlador principal
 require_once APP_PATH.'Model.php';//metodos comunes para todos models
 require_once APP_PATH.'View.php';
 require_once APP_PATH.'Registro.php';
-
+require_once APP_PATH.'Database.php';
 
 //echo '<pre>';print_r(get_required_files()); //
 /*$r=new Request();

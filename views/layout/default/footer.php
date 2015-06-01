@@ -1,7 +1,8 @@
-<div id="footer">
-    Copyright 2015 - <?php echo APP_COMPANY;?>
-</div>    
-</div><!-- END main-->
-   
-</body>
+            </div>
+
+            <div id="footer">
+                Copyright &copy; 2012 <?php echo APP_COMPANY; ?>
+            </div>
+        </div>
+    </body>
 </html>
