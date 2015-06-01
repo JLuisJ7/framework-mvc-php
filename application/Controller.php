@@ -23,5 +23,15 @@ abstract class Controller {
             throw new Exception('ERROR DE MODELO');
         }
     }
+    
+    protected function getLibrary($libreria){
+        $rutaLibreria=ROOT.'libs'.DS.$libreria.'.php';
+    
+        if(is_readable($rutaLibreria)){
+            require_once $rutaLibreria;
+        }else{
+            throw new Exception('Error de libreria');
+        }
+    }
 
 }
