@@ -1,6 +1,6 @@
 <?php
 
-class indexController extends Controller {
+class holaController extends Controller {
 
     public function __construct() {
         parent::__construct();
@@ -8,8 +8,8 @@ class indexController extends Controller {
 
     public function index() {
         //echo 'HOLA desde el index Controller';
-        $this->_view->titulo='Portada';
-        $this->_view->renderizar('index','inicio');
+        $this->_view->titulo='Hola';
+        $this->_view->renderizar('index','hola');
     }
 
 }
