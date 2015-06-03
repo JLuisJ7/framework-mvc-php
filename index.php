@@ -1,9 +1,9 @@
 <?php
+ini_set('display_errors',1);
 //definiendo las constantes
 define('DS', DIRECTORY_SEPARATOR); //separador /
 define('ROOT', realpath(dirname(__FILE__)).DS);// Ruta base de la aplicacion
 //echo ROOT;
-
 define('APP_PATH',ROOT . 'application'.DS);
 
 require_once APP_PATH.'Config.php';
